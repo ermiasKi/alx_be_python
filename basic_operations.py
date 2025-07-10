@@ -1,8 +1,7 @@
-num_1 = 45
-num_2 = 9
+number1 = 45
+number2 = 9
 
 
-print(f"Addition of {num_1} and {num_2} is {num_1 + num_2}.")
-print(f"Subtraction of {num_1} and {num_2} is {num_1 - num_2}.")
-print(f"Multiplication of {num_1} and {num_2} is {num_1 * num_2}.")
-print(f"Division of {num_1} and {num_2} is {num_1 / num_2}.")
+print(f"Addition of {number1} and {number2} is {number1 + number2}.")
+print(f"Subtraction of {number1} and {number2} is {number1 - number2}.")
+print(f"Multiplication of {number1} and {number2} is {number1 * number2}.")
