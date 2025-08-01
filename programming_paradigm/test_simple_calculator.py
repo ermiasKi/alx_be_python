@@ -13,7 +13,7 @@ class test(unittest.TestCase):
         self.assertEqual(self.calc.subtract(5,4),1)
         self.assertEqual(self.calc.subtract(3,7),-4)
 
-    def test_mutliplication(self):
+    def test_multiplication(self):
         self.assertEqual(self.calc.multiply(5,4),20)
         self.assertEqual(self.calc.multiply(0,4),0)
     def test_devision(self):
