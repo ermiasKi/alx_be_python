@@ -1,13 +1,24 @@
+import math
+
 class Shape:
     def area(self):
         raise NotImplementedError
 
 class Rectangle(Shape):
-    def area(self, length:int, width:int):
-        return length*width
+    def __init__(self, length:int, width:int):
+        self.length = length
+        self.width = width
+        
+    def area(self):
+        return self.length*self.width
 
 
 class Circle(Shape):
-    def area(self, radius:int):
-        return 3.14*radius*radius
+    def __init__(self,radius:int):
+        self.radius = radius
+
+    def area(self):
+        return math.pi*self.radius*self.radius
+    
+
     
